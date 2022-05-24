@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --el-color:#333;
+}
+
+h1,h2,h3,h4,a,p{
+    color: var(--el-color);
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+h2{
+    font-size: 2.0rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+h3{
+    font-weight: 600;
+}
+
+p{
+    font-weight: 300;
+}
+
+.m-t{
+    margin-top: 150px;
+}
+
+.m-b{
+    margin-bottom: 100;
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+/* Header Section */
+
+nav{
+    height: 100px;
+}
+nav h2{
+    float: left;
+    display: inline;
+    line-height: 100px;
+ }
+
+ nav ul{
+     float: right;
+ }
+
+ nav ul li{
+     display: inline-block;
+     line-height: 100px;
+     margin: 0 25px;
+ }
+
+ nav ul li a{
+     text-transform: uppercase;
+ }
+
+ .active{
+     background-color: #eb7620;
+     border-radius: 20px;
+     padding: 7px 25px;
+     color: #fff;
+ }
+
+
+/* Showcase Area */
+.showcase{
+    height:100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),
+    url('../images/confer.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: 10px solid #eb7620;
+}
+
+.showcase-content h1{
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.showcase-content p{
+    color: #fff;
+    margin: 50px 0;
+}
+
+.showcase-content{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    transform: translateY(20vh);
+}
+
+.showcase-content .btn{
+    color: #fff;
+    padding: 10px 60px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: 0.5s all;
+   border: 2px solid #fff;
+}
+
+.showcase-content .btn:hover{
+    background: #eb7620;
+    border: 0;
+}
+
+.about .about-image{
+    width: 45%;
+    float: left;
+}
+
+.about-wrapper{
+    max-width: 100%;
+    height: auto;
+}
+
+.about .about-content{
+    width: 45%;
+    float: right;
+    text-align: left;
+    margin-top: 60px;
+}
+
+.about .line{
+    width: 150px;
+    height: 6px;
+    margin-top: 50px;
+    background-color: #333;
+}
+
+.about p{
+    margin-top: 50px;
+}
